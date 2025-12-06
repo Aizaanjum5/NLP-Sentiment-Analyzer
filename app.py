@@ -93,6 +93,3 @@ if st.button("Analyze Sentiment"):
         ✔ **Logistic Regression** uses word frequency importance (**TF-IDF**).  
         ✔ **Naive Bayes** assumes word independence and is very fast.  
         ✔ **LSTM** reads sequences as ordered patterns, capturing context better.
-
-        **The LSTM model is expected to perform better with longer reviews or complex wording.**
-        """)
