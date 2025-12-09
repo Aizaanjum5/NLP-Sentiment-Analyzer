@@ -130,7 +130,6 @@ if st.button("Analyze Sentiment"):
 
         # Confidence table
         st.write("---")
-        st.subheader("Model confidence (per class)")
         class_names = list(label_encoder.classes_)
         rows = []
         if results["lr"]["proba"] is not None:
@@ -153,12 +152,4 @@ if st.button("Analyze Sentiment"):
             }
         )
 
-        st.write("---")
-        st.subheader("Model insights")
-        st.markdown(
-            """
-- Logistic Regression uses TF-IDF to weigh words by importance.
-- Naive Bayes assumes word independence and is often strong on sparse text features. [web:17][web:20]
-- LSTM models capture word order and longer-term context in the review. [web:18][web:21]
-"""
-        )
+      
