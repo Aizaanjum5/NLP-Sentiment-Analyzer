@@ -8,14 +8,11 @@ This project analyzes university or course reviews and predicts whether the sent
 
 The goal is to compare **classical machine learning models** with a **deep learning model** on a text classification task.
 
----
  Models Used
 
 1. **Logistic Regression** (with TF-IDF features)  
 2. **Multinomial Naive Bayes** (with Bag-of-Words features)  
 3. **LSTM Neural Network** (with word embeddings and sequence modeling)
-
----
 
 NLP Pipeline
 
@@ -55,3 +52,4 @@ Run the app with:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
